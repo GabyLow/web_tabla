@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Producto</title>
+  <link rel="stylesheet" href="Style.css" />
+</head>
+
+<header>
+  <h1>Formulario</h1>
+</header>
+
+<body>
+  <form name="frm" method="post" action="envio.php">
+    <fieldset id="form">
+      <legend>Registro de producto</legend>
+      <ol>
+        <li><label>Código: </label><input type="text" name="fname" size="25" /></li>
+        <li><label>Descripción: </label><input type="text" name="femail" size="25" /></li>
+        <li><label>Código de barra: </label><input type="text" name="fdireccion" size="25" /></li>
+        <li><label>Precio unitario: </label><input type="text" name="fname" size="25" /></li>
+        <li><label>Stock: </label><input type="text" name="femail" size="25" /></li>
+        <li><label>Proveedor: </label><input type="text" name="fdireccion" size="25" /></li>
+        <li><label>Estado:</label></li>
+        <input type="checkbox" name="Activo" id="Activo">
+        <li><label for="Categoria">Categoria:</label>
+        <select name="Categoria" id="Categoria">
+         <option value="1">Categoria 1</option>
+         <option value="2">Categoria 2</option>
+         <option value="3">Categoria 3</option>
+         <option value="4">Categoria 4</option>
+        </select>
+        </li>
+      </ol>
+      <a class="btn" href="save.html">Guardar</a><a class="btn" href="index.html">Cancelar</a>
+    </fieldset>
+  </form>
+</body>
+</html>
